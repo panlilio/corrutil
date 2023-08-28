@@ -46,4 +46,4 @@ By default, `analyze.py` expects that your data has been separated by channel in
 ```
 While .tif is used for the example data and above, note that the images can be of any format readable by [scikit-image](https://scikit-image.org/docs/stable/api/skimage.io.html#). 
 
-To modify the file pattern to suit your data, see the wiki.
+To modify the file pattern to suit your data, adjust the `regexpression` parameter in your configuration file. See [here](https://github.com/panlilio/corrutil/wiki/Configuration-file-parameters).
