@@ -554,7 +554,7 @@ def main(dirname,regexpression=r"(?P<sample>\w+)_(?P<fov>[.\w]+)_ch(?P<channel>\
         writer.save_heatmaps(dset)
         csvname = writer.save_results(datastore)
         csv_files.append(csvname)
-        logger.info(f"({i}/{len(datafilters)}) Dataset = {dset.name}. DONE.")
+        logger.info(f"({i+1}/{len(datafilters)}) Dataset = {dset.name}. DONE.")
     if len(csv_files)>1:
         for name in csv_files[:-1]:
             os.remove(name)
