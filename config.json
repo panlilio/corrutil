@@ -1,0 +1,13 @@
+{
+"dirname" : "data",
+"regexpression" : "(?P<sample>\\w+)_(?P<fov>[.\\w]+)_ch(?P<channel>\\d+)\\S*.tif",
+"destdir" : null,
+"stats_to_get" : ["pearson","spearman","mutual_info","overlap","intensity"],
+"do_bootstrap" : true,
+"n_bootstraps" : 200,
+"bootstrap_block_size" : 1.0,
+"CI" : 0.95,
+"threshold" : "otsu",
+"threshold_kw": {},
+"area_min": 0
+}
