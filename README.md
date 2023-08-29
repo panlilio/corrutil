@@ -48,6 +48,8 @@ While .tif is used for the example data and above, note that the images can be o
 
 To modify the file pattern to suit your data, adjust the `regexpression` parameter in your configuration file. See the [wiki](https://github.com/panlilio/corrutil/wiki/Configuration-file-parameters) for details.
 
+By default, results will be written to a timestamped 'results' folder in the current working directory. To specify a different output folder, adjust the `destdir` parameter in your configuration file: again, see [wiki](https://github.com/panlilio/corrutil/wiki/Configuration-file-parameters). 
+
 ## Outputs
 When run as the main script, `analyze.py` will generate the following outputs:
 * heatmaps of each correlational metric (.pdf)
