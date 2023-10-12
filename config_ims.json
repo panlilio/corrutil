@@ -1,0 +1,13 @@
+{
+"imsname" : "/Users/mpanlili/Imaris Demo Images/CellDemoMembrane3D.ims",
+"destdir" : "/Users/mpanlili/Desktop/temp/mi",
+"x" : 0,
+"y" : 0,
+"z" : 0,
+"nx" : 32,
+"ny" : 32,
+"nz" : 8,
+"do_bootstrap" : true,
+"n_bootstraps" : 10,
+"bootstrap_block_size" : 1.0
+}
